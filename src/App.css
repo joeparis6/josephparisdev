@@ -13,6 +13,18 @@
   }
 }
 
+.Navbar {
+  background-color: #282c34;
+  border-bottom: 1px  #61dafb;
+  color: #61dafb
+}
+
+.Navbar ul {
+  border: 2px green;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
