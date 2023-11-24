@@ -1,8 +1,8 @@
-export default [
-    {
-        rules: {
-            semi: "error",
-            "prefer-const": "error"
-        }
-    }
-]
+// export default [
+//     {
+//         rules: {
+//             semi: "error",
+//             "prefer-const": "error"
+//         }
+//     }
+// ]

@@ -5,12 +5,22 @@ function App() {
     <div className="App">
       <div className="Navbar">
         <nav>
-          <button>item 1</button>
-          <button>item 2</button>
-          <button>item 3</button>
-          <button>item 4</button>
+          <div style={{ display:'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+            <div>
+              <button>item 1</button>
+              <button>item 2</button>
+              <button>item 3</button>
+              <button>item 4</button>
+            </div>
+            <button>
+              login
+            </button>
+          </div>
+          
         </nav>
+        
       </div>
+      
       <header className="App-header">
         <h2>
           Joseph Paris
