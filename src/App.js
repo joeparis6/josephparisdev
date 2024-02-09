@@ -1,56 +1,26 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Pages/Home';
+import Education from './Pages/Education';
+import Experience  from './Pages/Experience';
+import Goals from './Pages/Goals';
+import Skills from './Pages/Skills';
+import Layout from './Pages/Layout';
 
 function App() {
   return (
     <div className="App">
-      
-        <nav>
-          <div className="Navbar">
-            <div className='Button-group'>
-              <button>Experience</button>
-              <button>Education</button>
-              <button>Skills</button>
-              <button>Goals</button>
-            </div>
-            <button>
-                login
-            </button>
-          </div>
-        </nav>
-        
-      
-      <div className='App-content'>
-        <header className="App-header">
-        <h2>
-          Joseph Paris
-        </h2>
-        <h5>
-          Serverless Web Developer
-        </h5>
-        <div className='Resume'>
-          <div className='Resume-item'>
-          <h5>
-            Education
-          </h5>
-          <ul>
-          <li>BS Computer Science - Brigham Young University 2022</li>
-          </ul>
-        </div>
-        <div className='Resume-item'>
-          <h5>
-            Experience
-          </h5>
-          <ul>
-          <li>Full Stack React Developer @ Lion Energy Jan 2023 - Present</li>
-          </ul>
-        </div>
-        </div>
-        
-      </header>
-      </div>
-      
-      
-      
+        <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+            <Route index element={<Home/>}/>
+            <Route path="education" element={<Education/>}/>
+            <Route path="experience" element={<Experience/>}/>
+            <Route path="goals" element={<Goals/>}/>
+            <Route path="skills" element={<Skills/>}/>
+          </Route>
+        </Routes>
+        </BrowserRouter>
     </div>
   );
 }
