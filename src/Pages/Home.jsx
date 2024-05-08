@@ -4,7 +4,7 @@ const Home = () => {
   return (
         <header className="App-header">
         <h2>
-          Joseph Paris
+          Joseph Patrick Paris
         </h2>
         <h5>
           Serverless Web Developer
