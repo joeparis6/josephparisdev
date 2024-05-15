@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import './styles/dark.css'
 import './styles/light.css'
 import React from 'react';
@@ -12,10 +12,10 @@ import Layout from './Pages/Layout';
 import { ThemeContext } from './context/themeContext';
 
 function App() {
-  const theme = React.useContext(ThemeContext)
+  const {theme} = React.useContext(ThemeContext)
   console.log('theme', theme);
   return (
-    <div className="theme">
+    <div className={theme}>
         <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout/>}>

@@ -8,7 +8,7 @@ export const ThemeProvider = ({children}) => {
   const [theme, setTheme] = React.useState('dark');
 
   return (
-    <ThemeContext.Provider value={theme}>
+    <ThemeContext.Provider value={{theme, setTheme}}>
       {children}
     </ThemeContext.Provider>
   )
