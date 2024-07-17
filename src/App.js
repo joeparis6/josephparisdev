@@ -13,7 +13,6 @@ import { ThemeContext } from './context/themeContext';
 
 function App() {
   const {theme} = React.useContext(ThemeContext)
-  console.log('theme', theme);
   return (
     <div className={theme}>
         <BrowserRouter>

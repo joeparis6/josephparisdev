@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import { ThemeContext } from '../context/themeContext';
 
 const Layout = () => {
-  const {setTheme} = React.useContext(ThemeContext);
+  const {setTheme, theme} = React.useContext(ThemeContext);
   return (
     <div className="App">
         <nav>
@@ -25,7 +25,7 @@ const Layout = () => {
                 <button>Goals</button>
             </Link>
             </div>
-            <button onClick={() => setTheme('light')}>
+            <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
               theme
             </button>
             <button>
