@@ -1,14 +1,14 @@
 import React from 'react'
-import { Outlet, Link } from "react-router-dom";
-import { ThemeContext } from '../context/themeContext';
+import { Outlet, Link } from 'react-router-dom'
+import { ThemeContext } from '../context/themeContext'
 
 const Layout = () => {
-  const {setTheme, theme} = React.useContext(ThemeContext);
+  const { setTheme, theme } = React.useContext(ThemeContext)
   return (
     <div className="App">
-        <nav>
-          <div className="Navbar">
-            <div className='Button-group'>
+      <nav>
+        <div className="Navbar">
+          <div className="Button-group">
             <Link to="/">
               <button>Home</button>
             </Link>
@@ -16,29 +16,28 @@ const Layout = () => {
               <button>Experience</button>
             </Link>
             <Link to="/education">
-                <button>Education</button>
+              <button>Education</button>
             </Link>
-            <Link to='skills'>
-                <button>Skills</button>
-                </Link>
-            <Link to='goals'>
-                <button>Goals</button>
+            <Link to="skills">
+              <button>Skills</button>
             </Link>
-            </div>
-            <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
-              theme
-            </button>
-            <button>
-                login
-            </button>
+            <Link to="goals">
+              <button>Goals</button>
+            </Link>
           </div>
-        </nav>
-        <div className='App-content'>
-          <Outlet />  
+          <button
+            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+          >
+            theme
+          </button>
+          <button>login</button>
         </div>
-        
+      </nav>
+      <div className="App-content">
+        <Outlet />
+      </div>
     </div>
   )
 }
 
-export default Layout;
+export default Layout
