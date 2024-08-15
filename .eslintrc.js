@@ -7,13 +7,7 @@ export default {
   ],
   rules: {
     semi: 'error',
-    'prefer-const': [
-      'error',
-      {
-        destructuring: 'all',
-        ignoreReadBeforeAssign: true,
-      },
-    ],
+    'prefer-const': 'error',
     'no-unused-vars': [
       'warn',
       { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
