@@ -8,28 +8,25 @@
 }
 
 .Navbar {
-  background-color: #FF9900;
+  background-color: #ff9900;
   display: flex;
   justify-content: space-between;
 }
 
 .Button-group {
-
 }
 
 .Navbar button {
   padding: 12px;
   margin: 1px;
-  background-color: #FF9900;
+  background-color: #ff9900;
   color: #282c34;
   border: none;
-} 
+}
 
-.Navbar button:hover  {
-  background-color: #FFA07A;
-} 
-
-
+.Navbar button:hover {
+  background-color: #ffa07a;
+}
 
 .App-header {
   background-color: #232f3e;
@@ -49,5 +46,3 @@
 .Resume-Item {
   align-content: flex-start;
 }
-
-

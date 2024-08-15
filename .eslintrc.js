@@ -1,8 +1,16 @@
-// export default [
-//     {
-//         rules: {
-//             semi: "error",
-//             "prefer-const": "error"
-//         }
-//     }
-// ]
+export default {
+  extends: [
+    'prettier',
+    'prettier/prettier',
+    'prettier/react',
+    'plugin:prettier/recommended',
+  ],
+  rules: {
+    semi: 'error',
+    'prefer-const': 'error',
+    'no-unused-vars': [
+      'warn',
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
+    ],
+  },
+};
