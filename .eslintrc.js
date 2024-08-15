@@ -1,5 +1,5 @@
 export default {
-    extends: [
+  extends: [
     'prettier',
     'prettier/prettier',
     'prettier/react',
@@ -7,6 +7,16 @@ export default {
   ],
   rules: {
     semi: 'error',
-    'prefer-const': 'error',
+    'prefer-const': [
+      'error',
+      {
+        destructuring: 'all',
+        ignoreReadBeforeAssign: true,
+      },
+    ],
+    'no-unused-vars': [
+      'warn',
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
+    ],
   },
-}
+};

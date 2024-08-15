@@ -1,9 +1,17 @@
-import React from 'react'
-import { Outlet, Link } from 'react-router-dom'
-import { ThemeContext } from '../context/themeContext'
+import React from 'react';
+import { Outlet, Link } from 'react-router-dom';
+import { ThemeContext } from '../context/themeContext';
 
 const Layout = () => {
-  const { setTheme, theme } = React.useContext(ThemeContext)
+  const { setTheme, theme } = React.useContext(ThemeContext);
+
+  const func = () => {
+    let variable = 15;
+    const unusedVariable = 42;
+
+    console.log('formatting', variable);
+  };
+
   return (
     <div className="App">
       <nav>
@@ -37,7 +45,7 @@ const Layout = () => {
         <Outlet />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
