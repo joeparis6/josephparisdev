@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
   return (
     <header className="App-header">
       <h2>Joseph Paris</h2>
-      <h5>Serverless Web Developer</h5>
+      <h5>Web Developer</h5>
       <div className="Resume">
         <div className="Resume-item">
           <h5>Education</h5>
@@ -15,12 +15,16 @@ const Home = () => {
         <div className="Resume-item">
           <h5>Experience</h5>
           <ul>
-            <li>Full Stack React Developer @ Lion Energy Jan 2023 - Present</li>
+            <li>Junior Developer @ Lion Energy Jan 2023 - September 2024</li>
+            <li>
+              Intermediate Full Stack Developer @ Lion Energy September 2024 -
+              Present
+            </li>
           </ul>
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

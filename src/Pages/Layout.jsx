@@ -6,10 +6,10 @@ const Layout = () => {
   const { setTheme, theme } = React.useContext(ThemeContext);
 
   return (
-    <div className="App">
+    <div className={theme}>
       <nav>
         <div className="Navbar">
-          <div className="Button-group">
+          <div className="Button-Group">
             <Link to="/">
               <button>Home</button>
             </Link>
@@ -26,12 +26,14 @@ const Layout = () => {
               <button>Goals</button>
             </Link>
           </div>
-          <button
-            onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-          >
-            theme
-          </button>
-          <button>login</button>
+          <div>
+            <button
+              onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+            >
+              theme
+            </button>
+            <button>login</button>
+          </div>
         </div>
       </nav>
       <div className="App-content">
