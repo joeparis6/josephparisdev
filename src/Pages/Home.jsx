@@ -17,7 +17,7 @@ const Home = () => {
           <ul>
             <li>Junior Developer @ Lion Energy Jan 2023 - September 2024</li>
             <li>
-              Intermediate Full Stack Developer @ Lion Energy September 2023 -
+              Intermediate Full Stack Developer @ Lion Energy September 2024 -
               Present
             </li>
           </ul>
