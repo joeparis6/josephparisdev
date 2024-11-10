@@ -1,21 +1,21 @@
 .light {
   min-height: 100vh;
-  background-color: #cbdf90;
+  background-color: lightcyan;
 }
 
 .light .Navbar {
   display: flex;
   justify-content: space-between;
-  background-color: blueviolet;
+  background-color: #1b4079;
 }
 
 .light .ButtonGroup {
-  background-color: white;
+  background-color: lightblue;
 }
 
 .light .Navbar button {
   padding: 12px;
-  background-color: green;
+  background-color: lightblue;
   margin: 1px;
   border: none;
 }

@@ -7,16 +7,16 @@
 .dark .Navbar {
   display: flex;
   justify-content: space-between;
-  background-color: yellowgreen;
+  background-color: lightblue;
 }
 
 .dark .ButtonGroup {
-  background-color: green;
+  background-color: lightcyan;
 }
 
 .dark .Navbar button {
   padding: 12px;
-  background-color: green;
+  background-color: lightcyan;
   margin: 1px;
   border: none;
 }
