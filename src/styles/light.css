@@ -19,3 +19,7 @@
   margin: 1px;
   border: none;
 }
+
+.light .hyperlink a {
+  color: blue;
+}

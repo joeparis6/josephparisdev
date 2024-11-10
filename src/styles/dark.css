@@ -1,6 +1,7 @@
 .dark {
   min-height: 100vh;
   background-color: #1b4079;
+  color: white;
 }
 
 .dark .Navbar {
@@ -18,4 +19,8 @@
   background-color: green;
   margin: 1px;
   border: none;
+}
+
+.dark .hyperlink a {
+  color: white;
 }
