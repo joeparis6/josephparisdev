@@ -3,15 +3,15 @@ import React from 'react';
 const Skills = () => {
   return (
     <>
-      <div>Skills</div>
-
-      {/* programming languages and Frameworks */}
+      <h3>Skills</h3>
       <h5>Web Programming</h5>
       <ul>
         <li>JavaScript</li>
         <li>TypeScript</li>
         <li>ReactJS</li>
         <li>NestJs</li>
+        <li>Java</li>
+        <li>NodeJs</li>
         <li>SQL</li>
       </ul>
       <h5>Design & Styling</h5>

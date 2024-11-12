@@ -21,6 +21,17 @@
   border: none;
 }
 
+.dark .baseCard {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  border: 2px, solid, lightcyan;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
 .dark .hyperlink a {
   color: white;
 }

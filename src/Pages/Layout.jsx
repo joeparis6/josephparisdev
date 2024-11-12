@@ -32,7 +32,7 @@ const Layout = () => {
             >
               theme
             </button>
-            <button>login</button>
+            {/* <button>login</button> */}
           </div>
         </div>
       </nav>
