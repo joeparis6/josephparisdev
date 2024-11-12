@@ -1,21 +1,36 @@
 .light {
   min-height: 100vh;
-  background-color: #cbdf90;
+  background-color: lightcyan;
 }
 
 .light .Navbar {
   display: flex;
   justify-content: space-between;
-  background-color: blueviolet;
+  background-color: #1b4079;
 }
 
 .light .ButtonGroup {
-  background-color: white;
+  background-color: lightblue;
 }
 
 .light .Navbar button {
   padding: 12px;
-  background-color: green;
+  background-color: lightblue;
   margin: 1px;
   border: none;
+}
+
+.light .baseCard {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  border: 2px, solid, #1b4079;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.light .hyperlink a {
+  color: blue;
 }
