@@ -22,8 +22,8 @@
 }
 
 .dark .baseCard {
-  display: flex;
-  flex-direction: column;
+  color: #1b4079;
+  background-color: lightcyan;
   height: fit-content;
   justify-content: center;
   border: 2px, solid, lightcyan;
@@ -32,6 +32,19 @@
   border-radius: 7px;
 }
 
+.dark .baseCard .header {
+  display: flex;
+  justify-content: left;
+}
+
 .dark .hyperlink a {
   color: white;
+}
+
+.dark .employer {
+  width: 50%;
+}
+
+.dark .school {
+  width: 50%;
 }

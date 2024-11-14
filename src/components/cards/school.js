@@ -4,9 +4,13 @@ const School = (props) => {
   const { schoolName, degree, year } = props;
   return (
     <div className="school">
-      <h4>{schoolName}</h4>
-      <h6>{degree}</h6>
-      <h6>{year}</h6>
+      <div className="baseCard">
+        <div className="header">
+          <h2>{schoolName}</h2>
+        </div>
+        <h4>{degree}</h4>
+        <h4>{year}</h4>
+      </div>
     </div>
   );
 };

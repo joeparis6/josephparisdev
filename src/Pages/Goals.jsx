@@ -5,7 +5,10 @@ const Goals = () => {
   return (
     <>
       <BaseCard>
-        <h3>My Goals</h3>
+        <div className="header">
+          <h3>My Goals</h3>
+        </div>
+
         <p>
           As a software engineer, I aspire to produce high quality applications
           that provide users with a sense of efficiency, ease, and delight.
