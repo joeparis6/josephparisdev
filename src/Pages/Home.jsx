@@ -42,10 +42,15 @@ const Home = () => {
                   />
                 </li>
                 <li>
-                  <Hyperlink
-                    url={'https://www.linkedin.com/in/joseph-paris-1891a1229/'}
-                    displayText={'LinkedIn'}
-                  />
+                  <div style={{ display: 'flex' }}>
+                    <img src="icons/linkedin.png" />
+                    <Hyperlink
+                      url={
+                        'https://www.linkedin.com/in/joseph-paris-1891a1229/'
+                      }
+                      displayText={'LinkedIn'}
+                    />
+                  </div>
                 </li>
                 <li>
                   <Hyperlink

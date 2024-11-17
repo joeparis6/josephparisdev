@@ -1,35 +1,53 @@
+:root {
+  --primary: #0d2137;
+  --secondary: #93dff8;
+}
+
 .dark {
   min-height: 100vh;
-  background-color: #1b4079;
-  color: white;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 .dark .Navbar {
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
+  background-color: var(--secondary);
 }
 
 .dark .ButtonGroup {
-  background-color: lightcyan;
+  background-color: var(--secondary);
 }
 
 .dark .Navbar button {
   padding: 12px;
-  background-color: lightcyan;
+  background-color: var(--secondary);
   margin: 1px;
   border: none;
 }
 
 .dark .baseCard {
-  color: #1b4079;
-  background-color: lightcyan;
+  color: var(--secondary);
+  background-color: var(--primary);
+  stroke: var(--secondary);
   height: fit-content;
+  width: 90%;
   justify-content: center;
-  border: 2px, solid, lightcyan;
+  border: 2px, solid, var(--secondary);
   margin: 20px;
-  padding: 5px;
   border-radius: 7px;
+}
+
+.dark .cardHeader {
+  height: 50px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: var(--secondary);
+  color: var(--primary);
+  display: flex;
+  justify-content: flex-start;
+}
+.dark .cardHeader h3 {
+  margin: auto;
 }
 
 .dark .baseCard .header {
@@ -42,7 +60,7 @@
 }
 
 .dark .employer {
-  width: 50%;
+  /* width: 50%; */
 }
 
 .dark .school {

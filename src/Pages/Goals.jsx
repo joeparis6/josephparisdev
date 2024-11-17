@@ -4,11 +4,7 @@ import BaseCard from '../components/cards/BaseCard';
 const Goals = () => {
   return (
     <>
-      <BaseCard>
-        <div className="header">
-          <h3>My Goals</h3>
-        </div>
-
+      <BaseCard header={'My Goals'}>
         <p>
           As a software engineer, I aspire to produce high quality applications
           that provide users with a sense of efficiency, ease, and delight.

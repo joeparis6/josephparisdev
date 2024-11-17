@@ -24,12 +24,14 @@ const Experience = () => {
           jobTitle={'Software QA Intern'}
           start={'May 2022'}
           end={'November 2022'}
+          imgSrc={'logos/legrand.png'}
         />
         <Employer
           employerName={'BYU Center For Teaching and Learning'}
           jobTitle={'Web Developer'}
           start={'April 2021'}
           end={'November 2022'}
+          imgSrc={'logos/byu.png'}
         />
       </div>
     </div>
