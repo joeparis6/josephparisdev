@@ -10,7 +10,7 @@ const Employer = (props) => {
     imgSrc = 'logos/briefcase.png',
   } = props;
   return (
-    <BaseCard header={employerName}>
+    <BaseCard header={employerName} subHeader={`${start} - ${end}`}>
       <div
         style={{
           display: 'flex',
@@ -20,7 +20,6 @@ const Employer = (props) => {
       >
         <div>
           <h4>{jobTitle}</h4>
-          <h4>{`${start} - ${end}`}</h4>
         </div>
         <div>
           <img src={imgSrc} />

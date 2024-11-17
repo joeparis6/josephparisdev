@@ -44,10 +44,12 @@
   background-color: var(--secondary);
   color: var(--primary);
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
 }
+
 .dark .cardHeader h3 {
-  margin: auto;
+  margin-left: 20px;
 }
 
 .dark .baseCard .header {

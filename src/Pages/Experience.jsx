@@ -5,7 +5,9 @@ const Experience = () => {
   return (
     <div>
       <h3>Experience</h3>
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div
+        style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+      >
         <Employer
           employerName={'Lion Energy'}
           jobTitle={'Intermediate Software Engineer'}
@@ -16,7 +18,7 @@ const Experience = () => {
           employerName={'Lion Energy'}
           jobTitle={'Junior Web Developer'}
           start={'January 2023'}
-          end={'August 2024'}
+          end={'September 2024'}
           imgSrc={'logos/lion.png'}
         />
         <Employer
