@@ -43,7 +43,6 @@ const Home = () => {
                 </li>
                 <li>
                   <div style={{ display: 'flex' }}>
-                    <img src="icons/linkedin.png" />
                     <Hyperlink
                       url={
                         'https://www.linkedin.com/in/joseph-paris-1891a1229/'

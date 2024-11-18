@@ -8,10 +8,10 @@ const Skills = () => {
       <ul>
         <li>JavaScript</li>
         <li>TypeScript</li>
-        <li>ReactJS</li>
-        <li>NestJs</li>
+        <li>React</li>
+        <li>NestJS</li>
         <li>Java</li>
-        <li>NodeJs</li>
+        <li>Node.js</li>
         <li>SQL</li>
       </ul>
       <h5>Design & Styling</h5>

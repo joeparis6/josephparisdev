@@ -15,10 +15,6 @@
   background-color: var(--secondary);
 }
 
-.dark .ButtonGroup {
-  background-color: var(--secondary);
-}
-
 .dark .Navbar button {
   padding: 12px;
   background-color: var(--secondary);
@@ -32,10 +28,13 @@
   stroke: var(--secondary);
   height: fit-content;
   width: 90%;
-  justify-content: center;
   border: 2px, solid, var(--secondary);
   margin: 20px;
   border-radius: 7px;
+}
+
+.dark .baseCard p {
+  margin: 10px;
 }
 
 .dark .cardHeader {
@@ -52,11 +51,6 @@
   margin-left: 20px;
 }
 
-.dark .baseCard .header {
-  display: flex;
-  justify-content: left;
-}
-
 .dark .hyperlink a {
   color: white;
 }
@@ -66,5 +60,5 @@
 }
 
 .dark .school {
-  width: 50%;
+  /* width: 50%; */
 }

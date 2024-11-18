@@ -1,37 +1,57 @@
+:root {
+  --lightPrimary: #f5f5f5;
+  --lightSecondary: #93dff8;
+  /* --lightSecondary: #1b4079; */
+}
+
 .light {
   min-height: 100vh;
-  background-color: lightcyan;
+  background-color: var(--lightPrimary);
+  color: black;
 }
 
 .light .Navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #1b4079;
-}
-
-.light .ButtonGroup {
-  background-color: lightblue;
+  background-color: var(--lightSecondary);
 }
 
 .light .Navbar button {
   padding: 12px;
-  background-color: lightblue;
+  background-color: var(--lightSecondary);
   margin: 1px;
   border: none;
+  color: black;
 }
 
 .light .baseCard {
-  color: lightcyan;
-  background-color: #1b4079;
+  color: black;
+  background-color: var(--lightPrimary);
+  /* stroke: var(--lightSecondary); */
   height: fit-content;
-  justify-content: center;
-  border: 2px, solid, #1b4079;
+  width: 90%;
+  /* border: 2px, solid, var(--lightSecondary); */
   margin: 20px;
-  padding: 5px;
   border-radius: 7px;
+  box-shadow: 0px 4px 5px #a5a5a5;
 }
 
-.light .baseCard .header {
+.light .baseCard p {
+  margin: 10px;
+}
+
+.light .cardHeader {
+  height: 50px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: var(--lightSecondary);
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.light .cardHeader h3 {
+  margin-left: 20px;
 }
 
 .light .hyperlink a {
