@@ -32,7 +32,6 @@ const Layout = () => {
             >
               <img src={'/icons/mode.png'} />
             </button>
-            {/* <button>login</button> */}
           </div>
         </div>
       </nav>
