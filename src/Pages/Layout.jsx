@@ -11,26 +11,36 @@ const Layout = () => {
         <div className="Navbar">
           <div className="Button-Group">
             <Link to="/">
-              <button>Home</button>
+              <button>
+                <h4>Home</h4>
+              </button>
             </Link>
             <Link to="/experience">
-              <button>Experience</button>
+              <button>
+                <h4>Experience</h4>
+              </button>
             </Link>
             <Link to="/education">
-              <button>Education</button>
+              <button>
+                <h4>Education</h4>
+              </button>
             </Link>
             <Link to="skills">
-              <button>Skills</button>
+              <button>
+                <h4>Skills</h4>
+              </button>
             </Link>
             <Link to="goals">
-              <button>Goals</button>
+              <button>
+                <h4>Goals</h4>
+              </button>
             </Link>
           </div>
-          <div>
+          <div className="iconButton">
             <button
               onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
             >
-              <img src={'/icons/mode.png'} />
+              <img src={'/icons/mode.png'} className="imageButton" />
             </button>
           </div>
         </div>

@@ -22,6 +22,18 @@
   border: none;
 }
 
+.dark .iconButton button:hover {
+  background-color: #769493;
+  border-radius: 50%;
+  /* opacity: 10%; */
+  height: fit-content;
+}
+
+.dark .imageButton {
+  pointer-events: none;
+  opacity: 100%;
+}
+
 .dark .baseCard {
   color: var(--secondary);
   background-color: var(--primary);
