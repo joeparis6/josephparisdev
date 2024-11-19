@@ -51,6 +51,10 @@
   margin-left: 20px;
 }
 
+.dark .cardHeader h5 {
+  margin-left: 20px;
+}
+
 .dark .hyperlink a {
   color: white;
 }

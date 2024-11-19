@@ -37,7 +37,9 @@
 }
 
 .light .baseCard p {
-  margin: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  margin-right: 10px;
 }
 
 .light .cardHeader {
@@ -51,6 +53,10 @@
 }
 
 .light .cardHeader h3 {
+  margin-left: 20px;
+}
+
+.light .cardHeader h5 {
   margin-left: 20px;
 }
 
