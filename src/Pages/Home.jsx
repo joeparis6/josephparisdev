@@ -1,5 +1,5 @@
 import React from 'react';
-import Hyperlink from '../components/text/hyperlink';
+import Hyperlink from '../components/text/Hyperlink';
 
 const Home = () => {
   return (

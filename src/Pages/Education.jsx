@@ -1,5 +1,5 @@
 import React from 'react';
-import School from '../components/cards/school';
+import School from '../components/cards/School';
 
 const Education = () => {
   return (
