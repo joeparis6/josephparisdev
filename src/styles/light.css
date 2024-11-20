@@ -21,11 +21,20 @@
   background-color: var(--lightSecondary);
   margin: 1px;
   border: none;
-  color: black;
+}
+
+.light .iconButton button:hover {
+  background-color: #769493;
+  border-radius: 50%;
+  height: fit-content;
+}
+
+.light .imageButton {
+  pointer-events: none;
+  opacity: 100%;
 }
 
 .light .baseCard {
-  color: black;
   background-color: var(--lightPrimary);
   height: fit-content;
   width: 90%;
@@ -44,9 +53,7 @@
   height: 50px;
   border-radius: 5px 5px 0px 0px;
   background-color: var(--lightSecondary);
-  color: black;
   display: flex;
-  flex-direction: row;
   align-items: center;
   box-shadow: 0px 2px 5px #a5a5a5;
 }
