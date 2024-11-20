@@ -1,35 +1,67 @@
+:root {
+  --darkPrimary: #0d2137;
+  --darkSecondary: #93dff8;
+}
+
 .dark {
   min-height: 100vh;
-  background-color: #1b4079;
-  color: white;
+  background-color: var(--darkPrimary);
+  color: var(--darkSecondary);
 }
 
 .dark .Navbar {
   display: flex;
   justify-content: space-between;
-  background-color: lightblue;
-}
-
-.dark .ButtonGroup {
-  background-color: lightcyan;
+  background-color: var(--darkSecondary);
 }
 
 .dark .Navbar button {
   padding: 12px;
-  background-color: lightcyan;
+  background-color: var(--darkSecondary);
   margin: 1px;
   border: none;
 }
 
-.dark .baseCard {
-  display: flex;
-  flex-direction: column;
+.dark .iconButton button:hover {
+  background-color: #769493;
+  border-radius: 50%;
   height: fit-content;
-  justify-content: center;
-  border: 2px, solid, lightcyan;
+}
+
+.dark .imageButton {
+  pointer-events: none;
+  opacity: 100%;
+}
+
+.dark .baseCard {
+  color: var(--darkSecondary);
+  background-color: var(--darkPrimary);
+  height: fit-content;
+  width: 90%;
+  border: 2px, solid, var(--darkSecondary);
   margin: 20px;
-  padding: 5px;
   border-radius: 7px;
+}
+
+.dark .baseCard p {
+  margin: 10px;
+}
+
+.dark .cardHeader {
+  height: 50px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: var(--darkSecondary);
+  color: var(--darkPrimary);
+  display: flex;
+  align-items: center;
+}
+
+.dark .cardHeader h3 {
+  margin-left: 20px;
+}
+
+.dark .cardHeader h5 {
+  margin-left: 20px;
 }
 
 .dark .hyperlink a {
