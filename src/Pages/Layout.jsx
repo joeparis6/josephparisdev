@@ -40,7 +40,14 @@ const Layout = () => {
             <button
               onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
             >
-              <img src={'/icons/mode.png'} className="imageButton" />
+              <img
+                src={
+                  theme === 'light'
+                    ? '/icons/dark-mode.png'
+                    : '/icons/light-mode.png'
+                }
+                className="imageButton"
+              />
             </button>
           </div>
         </div>
