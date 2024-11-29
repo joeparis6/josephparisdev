@@ -1,6 +1,7 @@
 :root {
   --darkPrimary: #0d2137;
   --darkSecondary: #93dff8;
+  --hover: #769493;
 }
 
 .dark {
@@ -21,6 +22,10 @@
   background-color: var(--darkSecondary);
   margin: 1px;
   border: none;
+}
+
+.dark .Navbar button:hover {
+  background-color: var(--hover);
 }
 
 .dark .iconButton button:hover {
@@ -74,4 +79,41 @@
 
 .dark .hyperlink a {
   color: white;
+}
+
+.dark .textFrame {
+  position: relative;
+  padding: 8px;
+  width: fit-content;
+  margin: 5px;
+}
+
+.dark .textFrame::before,
+.dark .textFrame::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid var(--darkSecondary);
+}
+
+.dark .textFrame::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.dark .textFrame::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+
+.dark .textFrame * {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
