@@ -15,6 +15,9 @@ const Experience = () => {
           employerName={'Lion Energy'}
           jobTitle={'Intermediate Software Engineer'}
           start={'September 2024'}
+          description={
+            'As a web developer in the Energy Storage System industry, I learned to interface with a variety of cloud services to facilitate communication with IoT devices.'
+          }
         >
           <LionEnergy />
         </Employer>
@@ -23,15 +26,20 @@ const Experience = () => {
           jobTitle={'Junior Web Developer'}
           start={'January 2023'}
           end={'September 2024'}
+          description={
+            'As a web developer in the Energy Storage System industry, I learned to interface with a variety of cloud services to facilitate communication with IoT devices.'
+          }
         >
           <LionEnergy />
         </Employer>
         <Employer
-          employerName={'LeGrand North America'}
+          employerName={'Legrand North America'}
           jobTitle={'Software QA Intern'}
           start={'May 2022'}
           end={'November 2022'}
-          imgSrc={'logos/legrand.png'}
+          description={
+            'As a Software Quality Assurance Engineer I applied the principles of unit testing and test design to ensure product quality for a home-automation mobile application.'
+          }
         >
           <Legrand />
         </Employer>
@@ -40,6 +48,9 @@ const Experience = () => {
           jobTitle={'Web Developer'}
           start={'April 2021'}
           end={'November 2022'}
+          description={
+            'My first experience with web development was designing and building custom applications for BYU academic programs. These projects exposed me to every aspect of the software design life cycle.'
+          }
         >
           <BYU />
         </Employer>

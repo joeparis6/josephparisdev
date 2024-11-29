@@ -2,7 +2,14 @@ import React from 'react';
 import BaseCard from './BaseCard';
 
 const Employer = (props) => {
-  const { employerName, jobTitle, start, end = 'present', children } = props;
+  const {
+    employerName,
+    jobTitle,
+    start,
+    end = 'present',
+    description,
+    children,
+  } = props;
   return (
     <BaseCard header={employerName} subHeader={`${start} - ${end}`}>
       <div>
@@ -13,10 +20,13 @@ const Employer = (props) => {
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
+          margin: '15px',
         }}
       >
-        <p>Description</p>
-        {children}
+        <p>{description}</p>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          {children}
+        </div>
       </div>
     </BaseCard>
   );
