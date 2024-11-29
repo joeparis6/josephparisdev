@@ -7,22 +7,25 @@ const Employer = (props) => {
     jobTitle,
     start,
     end = 'present',
-    imgSrc = 'logos/briefcase.png',
+    description,
+    children,
   } = props;
   return (
     <BaseCard header={employerName} subHeader={`${start} - ${end}`}>
+      <div>
+        <h4>{jobTitle}</h4>
+      </div>
       <div
         style={{
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
+          margin: '15px',
         }}
       >
-        <div>
-          <h4>{jobTitle}</h4>
-        </div>
-        <div>
-          <img src={imgSrc} />
+        <p>{description}</p>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          {children}
         </div>
       </div>
     </BaseCard>
