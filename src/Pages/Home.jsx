@@ -14,7 +14,7 @@ const Home = () => {
         }}
       >
         <ImageCard>
-          <img src="/photos/me.jpeg" height={400} width={300} />
+          <img src="/photos/me.jpeg" height={425} width={320} />
         </ImageCard>
 
         <div style={{ display: 'flex', flexDirection: 'column' }}>

@@ -17,14 +17,22 @@
   background-color: var(--darkSecondary);
 }
 
-.dark .Navbar button {
-  padding: 12px;
+.dark .Navbar .buttonGroup {
+  display: flex;
+  gap: 10px;
   background-color: var(--darkSecondary);
-  margin: 1px;
-  border: none;
 }
 
-.dark .Navbar button:hover {
+.dark .navButton {
+  background-color: var(--darkSecondary);
+  border: none;
+  flex: 1;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dark .navButton:hover {
   background-color: var(--hover);
 }
 
