@@ -1,10 +1,13 @@
 import React from 'react';
 import Skill from '../components/cards/Skill';
+import TextFrame from '../components/text/TextFrame';
 
 const Skills = () => {
   return (
     <>
-      <h3>Skills</h3>
+      <TextFrame>
+        <h3>Skills</h3>
+      </TextFrame>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >

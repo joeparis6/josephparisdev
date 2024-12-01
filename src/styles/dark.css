@@ -96,6 +96,7 @@
   height: 10px;
   background: transparent;
   border: 2px solid var(--darkSecondary);
+  border-radius: 1px;
 }
 
 .dark .textFrame::before {
@@ -116,4 +117,10 @@
   margin: 0;
   padding: 0;
   display: inline-block;
+}
+
+.dark .imageBox {
+  border: 2px solid var(--darkSecondary);
+  padding: 9px;
+  border-radius: 5px;
 }

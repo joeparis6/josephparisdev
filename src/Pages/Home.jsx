@@ -1,12 +1,22 @@
 import React from 'react';
 import Resume from '../components/cards/Resume';
 import TextFrame from '../components/text/TextFrame';
+import ImageCard from '../components/cards/ImageCard';
 
 const Home = () => {
   return (
     <header className="App-header">
-      <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-        {/* <img src="/photos/me.jpeg" height={500} width={400} /> */}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-around',
+          margin: '40px',
+        }}
+      >
+        <ImageCard>
+          <img src="/photos/me.jpeg" height={400} width={300} />
+        </ImageCard>
+
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <TextFrame>
             <h1>Joseph Paris</h1>

@@ -94,6 +94,7 @@
   height: 10px;
   background: transparent;
   border: 2px solid black;
+  border-radius: 1px;
 }
 
 .light .textFrame::before {
@@ -114,4 +115,10 @@
   margin: 0;
   padding: 0;
   display: inline-block;
+}
+
+.light .imageBox {
+  border: 2px solid var(--lightSecondary);
+  padding: 9px;
+  border-radius: 5px;
 }

@@ -3,11 +3,14 @@ import Employer from '../components/cards/Employer';
 import LionEnergy from '../svgs/LionEnergy';
 import Legrand from '../svgs/Legrand';
 import BYU from '../svgs/BYU';
+import TextFrame from '../components/text/TextFrame';
 
 const Experience = () => {
   return (
     <div>
-      <h3>Experience</h3>
+      <TextFrame>
+        <h3>Experience</h3>
+      </TextFrame>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >
