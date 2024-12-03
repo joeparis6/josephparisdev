@@ -19,14 +19,13 @@
 
 .dark .Navbar .buttonGroup {
   display: flex;
-  gap: 10px;
   background-color: var(--darkSecondary);
 }
 
 .dark .navButton {
   background-color: var(--darkSecondary);
   border: none;
-  flex: 1;
+  flex: 3;
   text-align: center;
   padding: 10px 15px;
   cursor: pointer;
@@ -36,8 +35,15 @@
   background-color: var(--hover);
 }
 
+.dark .iconButton button {
+  background-color: var(--darkSecondary);
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+}
+
 .dark .iconButton button:hover {
-  background-color: #769493;
+  background-color: var(--hover);
   border-radius: 50%;
   height: fit-content;
 }

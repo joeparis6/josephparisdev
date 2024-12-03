@@ -17,20 +17,34 @@
   background-color: var(--lightSecondary);
 }
 
-.light .Navbar button {
-  padding: 12px;
+.light .Navbar .buttonGroup {
+  display: flex;
   background-color: var(--lightSecondary);
-  margin: 1px;
-  border: none;
 }
 
-.light .Navbar button:hover {
+.light .navButton {
+  background-color: var(--lightSecondary);
+  border: none;
+  flex: 3;
+  text-align: center;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.light .navButton:hover {
   background-color: var(--hover);
 }
 
-.light .iconButton button:hover {
-  background-color: #769493;
+.light .iconButton button {
+  background-color: var(--lightSecondary);
   border-radius: 50%;
+  border: none;
+}
+
+.light .iconButton button:hover {
+  background-color: var(--hover);
+  border-radius: 50%;
+  padding: 5px;
   height: fit-content;
 }
 
