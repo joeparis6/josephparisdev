@@ -1,6 +1,7 @@
 :root {
   --darkPrimary: #0d2137;
   --darkSecondary: #93dff8;
+  --hover: #769493;
 }
 
 .dark {
@@ -16,15 +17,39 @@
   background-color: var(--darkSecondary);
 }
 
-.dark .Navbar button {
-  padding: 12px;
+.dark .Navbar .buttonGroup {
+  display: flex;
   background-color: var(--darkSecondary);
-  margin: 1px;
+}
+
+.dark .navButton {
+  background-color: var(--darkSecondary);
+  padding-inline: 18px;
   border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dark .navButton button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.dark .navButton:hover {
+  background-color: var(--hover);
+}
+
+.dark .iconButton button {
+  background-color: var(--darkSecondary);
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  margin-right: 10px;
 }
 
 .dark .iconButton button:hover {
-  background-color: #769493;
+  background-color: var(--hover);
   border-radius: 50%;
   height: fit-content;
 }
@@ -49,7 +74,7 @@
 }
 
 .dark .baseCard p {
-  margin: 10px;
+  padding: 10px;
 }
 
 .dark .cardHeader {
@@ -74,4 +99,48 @@
 
 .dark .hyperlink a {
   color: white;
+}
+
+.dark .textFrame {
+  position: relative;
+  padding: 8px;
+  width: fit-content;
+  margin: 5px;
+}
+
+.dark .textFrame::before,
+.dark .textFrame::after {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  border: 2px solid var(--darkSecondary);
+  border-radius: 1px;
+}
+
+.dark .textFrame::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+.dark .textFrame::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+}
+
+.dark .textFrame * {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.dark .imageBox {
+  border: 2px solid var(--darkSecondary);
+  padding: 9px;
+  border-radius: 5px;
 }

@@ -1,10 +1,14 @@
 import React from 'react';
 import School from '../components/cards/School';
+import TextFrame from '../components/text/TextFrame';
 
 const Education = () => {
   return (
     <>
-      <h3>Education</h3>
+      <TextFrame>
+        <h3>Education</h3>
+      </TextFrame>
+
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >

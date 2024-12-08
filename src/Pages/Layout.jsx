@@ -1,6 +1,7 @@
 import React from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { ThemeContext } from '../context/themeContext';
+import NavButton from '../components/buttons/NavButton';
 
 const Layout = () => {
   const { setTheme, theme } = React.useContext(ThemeContext);
@@ -9,32 +10,12 @@ const Layout = () => {
     <div className={theme}>
       <nav>
         <div className="Navbar">
-          <div className="Button-Group">
-            <Link to="/">
-              <button>
-                <h4>Home</h4>
-              </button>
-            </Link>
-            <Link to="/experience">
-              <button>
-                <h4>Experience</h4>
-              </button>
-            </Link>
-            <Link to="/education">
-              <button>
-                <h4>Education</h4>
-              </button>
-            </Link>
-            <Link to="skills">
-              <button>
-                <h4>Skills</h4>
-              </button>
-            </Link>
-            <Link to="goals">
-              <button>
-                <h4>Goals</h4>
-              </button>
-            </Link>
+          <div className="buttonGroup">
+            <NavButton to={'/'} label={'Home'} />
+            <NavButton to={'/experience'} label={'Experience'} />
+            <NavButton to={'/education'} label={'Education'} />
+            <NavButton to={'/skills'} label={'Skills'} />
+            <NavButton to={'/goals'} label={'Goals'} />
           </div>
           <div className="iconButton">
             <button
