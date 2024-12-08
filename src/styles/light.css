@@ -2,6 +2,7 @@
   --lightPrimary: #f5f5f5;
   --lightSecondary: #93dff8;
   --hover: #769493;
+  --darkPrimary: #0d2137;
 }
 
 .light {
@@ -23,11 +24,16 @@
 }
 
 .light .navButton {
-  background-color: var(--lightSecondary);
+  background-color: var(--darkSecondary);
+  padding-inline: 18px;
   border: none;
-  flex: 3;
   text-align: center;
-  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.light .navButton button {
+  background-color: inherit;
+  border: none;
   cursor: pointer;
 }
 
@@ -39,6 +45,7 @@
   background-color: var(--lightSecondary);
   border-radius: 50%;
   border: none;
+  margin-right: 10px;
 }
 
 .light .iconButton button:hover {
@@ -132,7 +139,7 @@
 }
 
 .light .imageBox {
-  border: 2px solid var(--lightSecondary);
+  border: 2px solid var(--darkPrimary);
   padding: 9px;
   border-radius: 5px;
 }
