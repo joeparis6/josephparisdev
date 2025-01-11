@@ -22,6 +22,14 @@ const Skills = () => {
             <li>SQL</li>
           </ul>
         </Skill>
+        <Skill skillName={'AWS Cloud Services'}>
+          <ul>
+            <li>IoT Core</li>
+            <li>S3</li>
+            <li>Cognito</li>
+            <li>Lambda</li>
+          </ul>
+        </Skill>
         <Skill skillName={'Design & Styling'}>
           <ul>
             <li>CSS</li>
@@ -34,14 +42,6 @@ const Skills = () => {
             <li>PostgreSQL</li>
             <li>AWS Timestream</li>
             <li>DynamoDB</li>
-          </ul>
-        </Skill>
-        <Skill skillName={'AWS Cloud Services'}>
-          <ul>
-            <li>IoT Core</li>
-            <li>S3</li>
-            <li>Cognito</li>
-            <li>Lambda</li>
           </ul>
         </Skill>
       </div>
