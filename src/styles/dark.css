@@ -106,6 +106,9 @@
   padding: 8px;
   width: fit-content;
   margin-top: 25px;
+}
+
+.dark .pageHeader {
   margin-left: 75px;
 }
 

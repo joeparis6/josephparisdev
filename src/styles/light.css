@@ -105,6 +105,9 @@
   padding: 8px;
   width: fit-content;
   margin-top: 25px;
+}
+
+.light .pageHeader {
   margin-left: 75px;
 }
 

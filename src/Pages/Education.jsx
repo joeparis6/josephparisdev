@@ -1,15 +1,14 @@
 import React from 'react';
 import School from '../components/cards/School';
-import TextFrame from '../components/text/TextFrame';
 import BYU from '../svgs/BYU';
+import PageHeader from '../components/text/PageHeader';
 
 const Education = () => {
   return (
     <>
-      <TextFrame>
+      <PageHeader>
         <h3>Education</h3>
-      </TextFrame>
-
+      </PageHeader>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >
