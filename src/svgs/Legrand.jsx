@@ -5,8 +5,8 @@ const Legrand = (props) => {
   const fill = theme === 'dark' ? 'white' : 'black';
   return (
     <svg
-      width={237}
-      height={63}
+      width={178}
+      height={48}
       viewBox="0 0 237 63"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

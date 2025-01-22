@@ -22,7 +22,7 @@ const Education = () => {
             design principles, applications of data structures, and designing
             delightful user experiences. More importantly, I learned to embrace
             challenge and new opportunities to learn. My growth mindset allows
-            me to thrive when adapting to new technology and dynamic processes.`}
+            me to thrive when adapting to new technologies and dynamic processes.`}
         >
           <BYU />
         </School>

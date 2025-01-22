@@ -17,8 +17,8 @@ const Employer = (props) => {
       </div>
       <div
         style={{
-          display: 'flex',
-          justifyContent: 'space-between',
+          display: 'grid',
+          gridTemplateColumns: '5fr 1fr',
           alignItems: 'center',
           margin: '15px',
         }}
