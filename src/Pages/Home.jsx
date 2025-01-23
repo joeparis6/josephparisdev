@@ -10,7 +10,7 @@ const Home = () => {
         style={{
           display: 'flex',
           justifyContent: 'space-around',
-          margin: '40px',
+          margin: '50px',
         }}
       >
         <ImageCard>

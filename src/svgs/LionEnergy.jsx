@@ -5,8 +5,8 @@ const LionEnergy = (props) => {
   const fill = theme === 'dark' ? 'white' : 'black';
   return (
     <svg
-      width={64}
-      height={81}
+      width={70}
+      height={89}
       viewBox="0 0 64 81"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

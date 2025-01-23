@@ -5,13 +5,13 @@ const Resume = () => {
   return (
     <div className="Resume">
       <div className="Resume-item">
-        <h5>Education</h5>
+        <h4>Education</h4>
         <ul>
           <li>BS Computer Science - Brigham Young University 2022</li>
         </ul>
       </div>
       <div className="Resume-item">
-        <h5>Experience</h5>
+        <h4>Experience</h4>
         <ul>
           <li>
             Intermediate Full Stack Developer @ Lion Energy September 2024 -
@@ -21,10 +21,14 @@ const Resume = () => {
           <li>
             Software QA Intern @ Legrand North America May 2022 - November 2022
           </li>
+          <li>
+            Student Web Developer @ Center for Teaching and Learning April 2021
+            - November 2022
+          </li>
         </ul>
       </div>
       <div className="Resume-item">
-        <h5>Connect</h5>
+        <h4>Connect</h4>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <Hyperlink
             url={'josephparis6@gmail.com'}

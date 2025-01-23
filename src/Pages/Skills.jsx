@@ -1,17 +1,17 @@
 import React from 'react';
 import Skill from '../components/cards/Skill';
-import TextFrame from '../components/text/TextFrame';
+import PageHeader from '../components/text/PageHeader';
 
 const Skills = () => {
   return (
     <>
-      <TextFrame>
+      <PageHeader>
         <h3>Skills</h3>
-      </TextFrame>
+      </PageHeader>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >
-        <Skill skillName={'Web Programming'}>
+        <Skill skillName={'Programming Languages and Frameworks'}>
           <ul>
             <li>JavaScript</li>
             <li>TypeScript</li>

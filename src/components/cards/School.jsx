@@ -13,7 +13,7 @@ const School = (props) => {
           margin: '15px',
         }}
       >
-        <div>
+        <div style={{ display: 'flex' }}>
           <h4>{degree}</h4>
           <h4>{year}</h4>
         </div>

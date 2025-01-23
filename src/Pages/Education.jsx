@@ -1,15 +1,14 @@
 import React from 'react';
 import School from '../components/cards/School';
-import TextFrame from '../components/text/TextFrame';
 import BYU from '../svgs/BYU';
+import PageHeader from '../components/text/PageHeader';
 
 const Education = () => {
   return (
     <>
-      <TextFrame>
+      <PageHeader>
         <h3>Education</h3>
-      </TextFrame>
-
+      </PageHeader>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >
@@ -22,7 +21,7 @@ const Education = () => {
             design principles, applications of data structures, and designing
             delightful user experiences. More importantly, I learned to embrace
             challenge and new opportunities to learn. My growth mindset allows
-            me to thrive when adapting to new technology and dynamic processes.`}
+            me to thrive when adapting to new technologies and dynamic processes.`}
         >
           <BYU />
         </School>

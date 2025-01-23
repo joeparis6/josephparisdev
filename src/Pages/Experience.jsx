@@ -3,14 +3,14 @@ import Employer from '../components/cards/Employer';
 import LionEnergy from '../svgs/LionEnergy';
 import Legrand from '../svgs/Legrand';
 import BYU from '../svgs/BYU';
-import TextFrame from '../components/text/TextFrame';
+import PageHeader from '../components/text/PageHeader';
 
 const Experience = () => {
   return (
     <div>
-      <TextFrame>
+      <PageHeader>
         <h3>Experience</h3>
-      </TextFrame>
+      </PageHeader>
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >
@@ -19,7 +19,7 @@ const Experience = () => {
           jobTitle={'Intermediate Software Engineer'}
           start={'September 2024'}
           description={
-            'As a web developer in the Energy Storage System industry, I learned to interface with a variety of cloud services to facilitate communication with IoT devices.'
+            'My growth as web developer led me to take on exciting new responsibilities at Lion Energy. I began to take the lead on new features in an architect role and oversaw the implementation of new systems. Exposure to the early stages of the software development lifecycle allowed me to take ownership of challenging and important projects with confidence.'
           }
         >
           <LionEnergy />
@@ -30,7 +30,7 @@ const Experience = () => {
           start={'January 2023'}
           end={'September 2024'}
           description={
-            'As a web developer in the Energy Storage System industry, I learned to interface with a variety of cloud services to facilitate communication with IoT devices.'
+            'As a web developer in the Energy Storage Systems industry, I quickly learned to interface with a variety of cloud services to facilitate cloud communication with IoT devices. '
           }
         >
           <LionEnergy />

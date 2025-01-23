@@ -6,8 +6,8 @@ const BYU = (props) => {
   const fill = theme === 'dark' ? 'white' : 'black';
   return (
     <svg
-      width={198}
-      height={56}
+      width={149}
+      height={42}
       viewBox="0 0 198 56"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
