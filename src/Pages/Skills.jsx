@@ -11,7 +11,7 @@ const Skills = () => {
       <div
         style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
       >
-        <Skill skillName={'Web Programming'}>
+        <Skill skillName={'Programming Languages and Frameworks'}>
           <ul>
             <li>JavaScript</li>
             <li>TypeScript</li>

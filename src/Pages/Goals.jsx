@@ -20,6 +20,15 @@ const Goals = () => {
             clean, readable, extendable, and maintainable.
           </p>
         </BaseCard>
+        <BaseCard header={'Career'}>
+          <p>
+            My long-term career goal is to become a Senior Software Engineer. I
+            believe that the key to accomplishing this feat is not only
+            perfecting my craft, but also keeping up to date in the latest
+            technologies, especially cloud computing and artificial
+            intelligence.
+          </p>
+        </BaseCard>
       </div>
     </>
   );
