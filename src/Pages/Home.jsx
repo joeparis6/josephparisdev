@@ -9,7 +9,7 @@ const Home = () => {
       <div
         style={{
           display: 'flex',
-          justifyContent: 'center',
+          justifyContent: 'space-around',
           margin: '50px',
         }}
       >
