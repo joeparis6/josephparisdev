@@ -9,8 +9,11 @@ const Home = () => {
       <div
         style={{
           display: 'flex',
-          justifyContent: 'space-around',
-          margin: '50px',
+          flexDirection: 'row', // Use 'column' for smaller screens
+          alignItems: 'center',
+          gap: '120px', // Adjust gap for better spacing
+          padding: '16px',
+          justifyContent: 'center',
         }}
       >
         <ImageCard>

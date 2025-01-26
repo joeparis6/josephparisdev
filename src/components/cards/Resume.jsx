@@ -1,5 +1,8 @@
 import React from 'react';
-import Hyperlink from '../text/Hyperlink';
+import LinkedIn from '../../svgs/LinkedIn';
+import LogoLink from '../text/LogoLink';
+import Github from '../../svgs/Github';
+import Email from '../../svgs/Email';
 
 const Resume = () => {
   return (
@@ -30,18 +33,21 @@ const Resume = () => {
       <div className="Resume-item">
         <h4>Connect</h4>
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <Hyperlink
+          <LogoLink
             url={'josephparis6@gmail.com'}
             displayText={'Email'}
+            logo={<Email />}
             isEmail
           />
-          <Hyperlink
+          <LogoLink
             url={'https://www.linkedin.com/in/joseph-paris-1891a1229/'}
             displayText={'LinkedIn'}
+            logo={<LinkedIn />}
           />
-          <Hyperlink
+          <LogoLink
             url={'https://github.com/joeparis6'}
             displayText={'Github'}
+            logo={<Github />}
           />
         </div>
       </div>
