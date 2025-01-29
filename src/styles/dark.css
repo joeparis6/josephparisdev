@@ -64,7 +64,9 @@
   background-color: var(--darkPrimary);
   height: fit-content;
   width: 90%;
-  border: 2px, solid, var(--darkSecondary);
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--darkSecondary);
   margin: 20px;
   border-radius: 7px;
 }
