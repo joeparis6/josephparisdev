@@ -40,7 +40,7 @@ const Resume = () => {
             isEmail
           />
           <LogoLink
-            url={'https://www.linkedin.com/in/joseph-paris-1891a1229/'}
+            url={'https://www.linkedin.com/in/joe-paris-1891a1229/'}
             displayText={'LinkedIn'}
             logo={<LinkedIn />}
           />
