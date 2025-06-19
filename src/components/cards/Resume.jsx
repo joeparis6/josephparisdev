@@ -16,11 +16,7 @@ const Resume = () => {
       <div className="Resume-item">
         <h4>Experience</h4>
         <ul>
-          <li>
-            Intermediate Full Stack Developer @ Lion Energy September 2024 -
-            Present
-          </li>
-          <li>Junior Developer @ Lion Energy Jan 2023 - September 2024</li>
+          <li>Full Stack Software Engineer @ Lion Energy Jan 2023 - Present</li>
           <li>
             Software QA Intern @ Legrand North America May 2022 - November 2022
           </li>
